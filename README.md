@@ -42,6 +42,8 @@ Or do it by hand, see "Flashing by hand" below.
 
 **2. Plug in Ethernet.** The box gets an address from your router. The serial monitor at 115200 baud prints it, or look in the router. Give it a fixed lease.
 
+Or use Wi-Fi: tell your assistant the network name and password and ask it to put them in `wifi_secrets.h` and flash again. Ethernet wins when both are connected.
+
 **3. Turn the setup key.** Input 16 high. The box now listens on the network and plays `editing.scene`, a dim test look.
 
 **4. Talk to it.** Tell your assistant:
