@@ -4,6 +4,8 @@ A small, rugged DMX512 scene controller for architectural lighting. Scenes are p
 
 **The idea:** keep the hardware dumb and the files human-readable, so the clever part can change over the years while the box keeps doing one job.
 
+**Why:** a stand-alone DMX controller usually means proprietary hardware and a confusing editor program. This is a 155 EUR industrial PLC, plain text files, and a conversation. The firmware and this page were built in one day with an AI assistant.
+
 - Static scene = a list of channel values, with an optional fade and a beep.
 - Dynamic scene = a 20-line Lua script the box ticks every 20 ms.
 - Triggers = a text file mapping inputs to scenes.
